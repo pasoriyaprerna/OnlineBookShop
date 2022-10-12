@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+
+  cartdb:
+    image: redis:alpine
+
+  book_shopping_cart.api:
+    image: ${DOCKER_REGISTRY-}bookshoppingcartapi
+    build:
+      context: .
+      dockerfile: Services/Book_Shopping_Cart/Book_Shopping_Cart.API/Dockerfile

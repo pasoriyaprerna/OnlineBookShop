@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book_Shopping_Cart", "Book_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_Shopping_Cart.API", "Services\Book_Shopping_Cart\Book_Shopping_Cart.API\Book_Shopping_Cart.API.csproj", "{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{09665822-7535-4953-90D8-BECAA88BB9FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09665822-7535-4953-90D8-BECAA88BB9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09665822-7535-4953-90D8-BECAA88BB9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09665822-7535-4953-90D8-BECAA88BB9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09665822-7535-4953-90D8-BECAA88BB9FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

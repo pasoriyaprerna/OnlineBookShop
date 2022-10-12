@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+
+  cartdb:
+    container_name: cartdb
+    restart: always
+    ports:
+      - "6379:6379"
+
+  book_shopping_cart.api:
+    container_name: book_shopping_cart.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "CacheSettings:ConnectionString=cartdb:6379"
+    depends_on:
+      - cartdb
+    ports:
+      - "8001:80"
+
