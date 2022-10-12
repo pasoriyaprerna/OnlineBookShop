@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{787E9BBC-4A08-40E3-8F35-A4DD6DBFE89F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book_Shopping_Cart", "Book_Shopping_Cart", "{771D71F9-13A7-41D5-BDDD-86C5075A24C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_Shopping_Cart.API", "Services\Book_Shopping_Cart\Book_Shopping_Cart.API\Book_Shopping_Cart.API.csproj", "{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{771D71F9-13A7-41D5-BDDD-86C5075A24C3} = {787E9BBC-4A08-40E3-8F35-A4DD6DBFE89F}
+		{1FF9CE53-744B-4AD3-A8A3-1DEDA51A5484} = {771D71F9-13A7-41D5-BDDD-86C5075A24C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A5BC7AB-A264-4559-BD13-76FE57D04ED5}
