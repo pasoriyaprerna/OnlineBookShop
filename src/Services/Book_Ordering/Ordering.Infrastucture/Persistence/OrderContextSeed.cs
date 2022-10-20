@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Ordering.Domain.Entities;
-using Ordering.Infrastucture.Persistence;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,7 +23,7 @@ namespace Ordering.Infrastructure.Persistence
         {
             return new List<Order>
             {
-                new Order() {UserName = "swn", FirstName = "Mehmet", LastName = "Ozkaya", EmailAddress = "ezozkme@gmail.com", AddressLine = "Bahcelievler", Country = "Turkey", TotalPrice = 350 }
+                new Order() {UserName = "dar", FirstName = "Darshana", LastName = "Makode", EmailAddress = "darshanamakode15.com", AddressLine = "Nagpur", Country = "India", TotalPrice = 350 }
             };
         }
     }

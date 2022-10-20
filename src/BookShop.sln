@@ -13,13 +13,13 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book_Ordering", "Book_Ordering", "{0B256AE0-FF38-4652-92B1-F28EB64F0D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Book_Ordering\Ordering.API\Ordering.API.csproj", "{E5561B1D-2E28-40D0-8F7C-0B9F239CCE43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Book_Ordering\Ordering.API\Ordering.API.csproj", "{E5561B1D-2E28-40D0-8F7C-0B9F239CCE43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Book_Ordering\Ordering.Application\Ordering.Application.csproj", "{51ACF757-FA06-43AC-B0CA-F604206D76E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Book_Ordering\Ordering.Application\Ordering.Application.csproj", "{51ACF757-FA06-43AC-B0CA-F604206D76E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Book_Ordering\Ordering.Domain\Ordering.Domain.csproj", "{0DBED882-CFE5-463A-ADF4-9CE525429A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Book_Ordering\Ordering.Domain\Ordering.Domain.csproj", "{0DBED882-CFE5-463A-ADF4-9CE525429A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastucture", "Services\Book_Ordering\Ordering.Infrastucture\Ordering.Infrastucture.csproj", "{EC9A8B47-6489-41BB-BA11-C18165F51F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastucture", "Services\Book_Ordering\Ordering.Infrastucture\Ordering.Infrastucture.csproj", "{EC9A8B47-6489-41BB-BA11-C18165F51F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

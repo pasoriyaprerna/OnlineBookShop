@@ -2,11 +2,13 @@ version: '3.4'
 
 services:
 
-  cartdb:
-    image: redis:alpine
 
-  book_shopping_cart.api:
-    image: ${DOCKER_REGISTRY-}bookshoppingcartapi
+  orderdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+
+  ordering.api:
+    image: ${DOCKER_REGISTRY-}orderingapi
     build:
       context: .
-      dockerfile: Services/Book_Shopping_Cart/Book_Shopping_Cart.API/Dockerfile
+      dockerfile: Services/Book_Ordering/Ordering.API/Dockerfile
+

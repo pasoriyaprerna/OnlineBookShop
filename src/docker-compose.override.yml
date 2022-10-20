@@ -2,19 +2,20 @@ version: '3.4'
 
 services:
 
-  cartdb:
-    container_name: cartdb
+
+  orderdb:
+    container_name: orderdb
+    environment:
+        darshu_PASSWORD: "darshu@1509"
+        ACCEPT_EULA: "Y"
     restart: always
     ports:
-      - "6379:6379"
+      - "1433:1433"
 
-  book_shopping_cart.api:
-    container_name: book_shopping_cart.api
+
+  ordering.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "CacheSettings:ConnectionString=cartdb:6379"
-    depends_on:
-      - cartdb
     ports:
-      - "8001:80"
+      - "80"
 
